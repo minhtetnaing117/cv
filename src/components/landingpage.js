@@ -15,7 +15,7 @@ class Landingpage extends Component {
                         /> */}
 
                         <div className='banner-text'>
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Odoo Developer</h1>
                             <hr />
 
                             <p>HTML/CSS | Bootstarp | JavaScript | React | React Native | Python | Odoo | Jquery | Firebase | heroku | Git </p><br/>
@@ -23,7 +23,7 @@ class Landingpage extends Component {
                     continuous learning new things and to get a challenge role.</p>  */}
 
                             <div className='social-links'>
-                                <a href='http://google.com' rel='noopener noreferrer' target='_blank'>
+                                <a href='https://github.com/minhtetnaing117/cv' rel='noopener noreferrer' target='_blank'>
                                     <FaGitAlt className='git-link'/>
                                 </a>
                             </div>
