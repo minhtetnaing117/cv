@@ -58,105 +58,105 @@ class Resume extends Component {
                         schoolDescription="Bachelor of Technology(Mining)"
                         />
 
-                    <Education 
-                        startYear={2011} endYear={2012} schoolName="West Yangon Technology University"
-                        schoolDescription="Bachelor of Engineering(Mining)"
+                        <Education 
+                            startYear={2011} endYear={2012} schoolName="West Yangon Technology University"
+                            schoolDescription="Bachelor of Engineering(Mining)"
+                            />
+
+                        <hr style={{borderTop: '3px soild #e22947'}}/>
+
+                        <h2>Experience</h2>
+                        <Experience 
+                        startYear={2012}
+                        endYear={2014}
+                        jobName="Mining"
+                        Company="National Property Company"
+                        position="Supervisor"
                         />
 
-                    <hr style={{borderTop: '3px soild #e22947'}}/>
+                        <Experience 
+                        startYear={2017}
+                        endYear={2019}
+                        jobName="Sale"
+                        Company="Vape Paradise"
+                        position='SaleMan'
+                        />
 
-                    <h2>Experience</h2>
-                    <Experience 
-                    startYear={2012}
-                    endYear={2014}
-                    jobName="Mining"
-                    Company="National Property Company"
-                    position="Supervisor"
-                    />
+                        <Experience 
+                        startYear={2021}
+                        endYear={2022}
+                        jobName="Odoo Develpoer"
+                        Company="KanaungMyanmarSoftware"
+                        position='Odoo Developer'
+                        />
 
-                    <Experience 
-                    startYear={2017}
-                    endYear={2019}
-                    jobName="Sale"
-                    Company="Vape Paradise"
-                    position='SaleMan'
-                    />
+                        <hr style={{borderTop: '3px soild #e22947'}}/>
+                        <h2>Professional Certification</h2>
 
-                    <Experience 
-                    startYear={2021}
-                    endYear={2022}
-                    jobName="Odoo Develpoer"
-                    Company="KanaungMyanmarSoftware"
-                    position='Odoo Developer'
-                    />
+                        
+                        <PersonalCertification WISE_College="WISE College (General English 4 skills)"
+                                                CPM="Certified Professional Manager (CPM)"
+                                                KMD="I-Office Basic(KMD)"
+                                                NetworkBasic="Certified Network Engineering (Basic)"
+                                                WebEssentialCourse="Web Essential Course"/>
 
-                    <hr style={{borderTop: '3px soild #e22947'}}/>
-                    <h2>Professional Certification</h2>
+                        <hr style={{borderTop: '3px soild #e22947'}}/>
+                        <h2>Skills</h2>
+                                <Skill 
+                                skill="javascript"
+                                progress={80}
+                                />
+                                <Skill 
+                                skill="HTML"
+                                progress={90}
+                                />
+                                <Skill 
+                                skill="CSS"
+                                progress={90}
+                                />
+                                <Skill 
+                                skill="Git"
+                                progress={60}
+                                />
+                                <Skill 
+                                skill="React"
+                                progress={90}
+                                />
+                                 <Skill 
+                                skill="Python"
+                                progress={80}
+                                />
+                                 <Skill 
+                                skill="Django"
+                                progress={80}
+                                />
+                                 <Skill 
+                                skill="React Native"
+                                progress={80}
+                                />
 
-                    
-                    <PersonalCertification WISE_College="WISE College (General English 4 skills)"
-                                            CPM="Certified Professional Manager (CPM)"
-                                            KMD="I-Office Basic(KMD)"
-                                            NetworkBasic="Certified Network Engineering (Basic)"
-                                            WebEssentialCourse="Web Essential Course"/>
-
-                    <hr style={{borderTop: '3px soild #e22947'}}/>
-                    <h2>Skills</h2>
-                    <Skill 
-                    skill="javascript"
-                    progress={80}
-                    />
-                    <Skill 
-                    skill="HTML"
-                    progress={90}
-                    />
-                    <Skill 
-                    skill="CSS"
-                    progress={90}
-                    />
-                    <Skill 
-                    skill="Git"
-                    progress={60}
-                    />
-                    <Skill 
-                    skill="React"
-                    progress={90}
-                    />
-                     <Skill 
-                    skill="Python"
-                    progress={80}
-                    />
-                     <Skill 
-                    skill="Django"
-                    progress={80}
-                    />
-                     <Skill 
-                    skill="React Native"
-                    progress={80}
-                    />
-
-            <hr style={{borderTop: '3px soild #e22947'}}/>
-            <h2>Other Skills</h2>
-                    <Skill 
-                    skill="Reporting"
-                    progress={60}
-                    />
-                    <Skill 
-                    skill="Power Point"
-                    progress={65}
-                    />
-                    <Skill 
-                    skill="team quality"
-                    progress={70}
-                    />
-                    <Skill 
-                    skill="Customer service"
-                    progress={70}
-                    />
-                    <Skill 
-                    skill="MS Excel Word"
-                    progress={70}
-                    />
+                        <hr style={{borderTop: '3px soild #e22947'}}/>
+                        <h2>Other Skills</h2>
+                                <Skill 
+                                skill="Reporting"
+                                progress={60}
+                                />
+                                <Skill 
+                                skill="Power Point"
+                                progress={65}
+                                />
+                                <Skill 
+                                skill="team quality"
+                                progress={70}
+                                />
+                                <Skill 
+                                skill="Customer service"
+                                progress={70}
+                                />
+                                <Skill 
+                                skill="MS Excel Word"
+                                progress={70}
+                                />
                    
                     </Cell>
                 </Grid>
