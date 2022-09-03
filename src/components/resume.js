@@ -115,6 +115,10 @@ class Resume extends Component {
                     progress={90}
                     />
                     <Skill 
+                    skill="Git"
+                    progress={60}
+                    />
+                    <Skill 
                     skill="React"
                     progress={90}
                     />
@@ -133,15 +137,15 @@ class Resume extends Component {
 
             <hr style={{borderTop: '3px soild #e22947'}}/>
             <h2>Other Skills</h2>
-                 <Skill 
+                    <Skill 
                     skill="Reporting"
                     progress={60}
                     />
-                     <Skill 
+                    <Skill 
                     skill="Power Point"
                     progress={65}
                     />
-                     <Skill 
+                    <Skill 
                     skill="team quality"
                     progress={70}
                     />
