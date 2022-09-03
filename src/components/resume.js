@@ -87,7 +87,7 @@ class Resume extends Component {
                         endYear={2022}
                         jobName="Odoo Develpoer"
                         Company="KanaungMyanmarSoftware"
-                        position='Odoo Developer'
+                        position='Odoo Developer (one & half yrs)'
                         />
 
                         <hr style={{borderTop: '3px soild #e22947'}}/>
