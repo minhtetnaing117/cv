@@ -82,6 +82,14 @@ class Resume extends Component {
                     position='SaleMan'
                     />
 
+                    <Experience 
+                    startYear={2021}
+                    endYear={2022}
+                    jobName="Odoo Develpoer"
+                    Company="KanaungMyanmarSoftware"
+                    position='Odoo Developer'
+                    />
+
                     <hr style={{borderTop: '3px soild #e22947'}}/>
                     <h2>Professional Certification</h2>
 
