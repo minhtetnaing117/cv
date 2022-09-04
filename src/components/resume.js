@@ -47,7 +47,7 @@ class Resume extends Component {
                                         Nationally="Nationally" Nationallys="Myanmar"
                                         Religious="Religious" Religiouss="Buddhist" 
                                         Race="Race" Races="Burmese"
-                                        N_R_C="N.R.C No." N_R_Cs="12/SA KHA NA (N)067805"/>
+                                        />
 
                         <hr style={{borderTop: '3px soild #e22947'}}/>
                         <h2>Education</h2>
@@ -74,20 +74,14 @@ class Resume extends Component {
                         position="Supervisor"
                         />
 
-                        <Experience 
-                        startYear={2017}
-                        endYear={2019}
-                        jobName="Sale"
-                        Company="Vape Paradise"
-                        position='SaleMan'
-                        />
+                       
 
                         <Experience 
-                        startYear={2021}
-                        endYear={2022}
+                        startYear={2020}
+                        endYear={'until now'}
                         jobName="Odoo Develpoer"
                         Company="KanaungMyanmarSoftware"
-                        position='Odoo Developer (one & half yrs)'
+                        position='Odoo Developer'
                         />
 
                         <hr style={{borderTop: '3px soild #e22947'}}/>
@@ -102,61 +96,19 @@ class Resume extends Component {
 
                         <hr style={{borderTop: '3px soild #e22947'}}/>
                         <h2>Skills</h2>
-                                <Skill 
-                                skill="javascript"
-                                progress={80}
-                                />
-                                <Skill 
-                                skill="HTML"
-                                progress={90}
-                                />
-                                <Skill 
-                                skill="CSS"
-                                progress={90}
-                                />
-                                <Skill 
-                                skill="Git"
-                                progress={60}
-                                />
-                                <Skill 
-                                skill="React"
-                                progress={90}
-                                />
-                                 <Skill 
-                                skill="Python"
-                                progress={80}
-                                />
-                                 <Skill 
-                                skill="Django"
-                                progress={80}
-                                />
-                                 <Skill 
-                                skill="React Native"
-                                progress={80}
-                                />
-
-                        <hr style={{borderTop: '3px soild #e22947'}}/>
-                        <h2>Other Skills</h2>
-                                <Skill 
-                                skill="Reporting"
-                                progress={60}
-                                />
-                                <Skill 
-                                skill="Power Point"
-                                progress={65}
-                                />
-                                <Skill 
-                                skill="team quality"
-                                progress={70}
-                                />
-                                <Skill 
-                                skill="Customer service"
-                                progress={70}
-                                />
-                                <Skill 
-                                skill="MS Excel Word"
-                                progress={70}
-                                />
+                              <Skill
+                                report="Reporting daily and monthly lists"
+                                ms="Great Proficiency in MS Excel Word and Power Point"
+                                quality="Have worked in a team quality"
+                                qualities="Worked with accountability and capable of leadership qualities"
+                                aptitude="Resourcefulness and troubleshooting aptitude"
+                                services="Customer services (external / internal)"
+                                languages="Knowledge of Coding languages (e.g. Python, PHP, HTML, CSS, JavaScript, React, React Native)"
+                                Mapping="Object-Relational Mapping (ORM) Django, Bootstrap"
+                                databases="Experience with databases (e.g. MySQL, PostgreSQL, SQLite)"
+                                Familiar="Familiar with Odoo(ERP), Heroku, Git"
+                              />
+                        
                    
                     </Cell>
                 </Grid>

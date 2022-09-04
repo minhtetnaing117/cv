@@ -13,7 +13,7 @@ class PersonalDetail extends Component {
                         <p>{this.props.Nationally}</p>
                         <p>{this.props.Religious}</p>
                         <p>{this.props.Race}</p>
-                        <p>{this.props.N_R_C}</p>
+                        
                 </Cell>
                 <Cell col={8}>
                 <p style={{marginTop:'0px'}}>{this.props.GenderName}</p>
@@ -22,7 +22,7 @@ class PersonalDetail extends Component {
                           <p>{this.props.Nationallys}</p>
                           <p>{this.props.Religiouss}</p>
                           <p>{this.props.Races}</p>
-                          <p>{this.props.N_R_Cs}</p>
+                          
                 </Cell>
                </Grid>
             </div>
