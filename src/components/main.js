@@ -5,6 +5,7 @@ import Contact from './contact'
 import Landingpage from './landingpage'
 import Projects from './projects'
 import Resume from './resume'
+import Certification from './certification'
 
  const Main = () => {
     return (
@@ -14,6 +15,7 @@ import Resume from './resume'
             <Route  path='/contact' component={Contact} />
             {/* <Route  path='/projects' component={Projects} /> */}
             <Route  path='/resume' component={Resume} />
+            <Route  path='/certification' component={Certification} />
         </Switch>
     )
 }

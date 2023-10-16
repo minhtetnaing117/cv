@@ -14,6 +14,7 @@ function App() {
                 <Link to="/aboutme">About Me</Link>
                 {/* <Link to="/projects">Projects</Link> */}
                 <Link to="/contact">Contact</Link>
+                <Link to="/certification">Certification</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration:'none' , color:'black'}} to="/" >MyPortfolio</Link>}>
@@ -22,6 +23,7 @@ function App() {
                 <Link to="/aboutme">About Me</Link>
                 {/* <Link to="/projects">Projects</Link> */}
                 <Link to="/contact">Contact</Link>
+                <Link to="/certification">Certification</Link>
             </Navigation>
         </Drawer>
         <Content>

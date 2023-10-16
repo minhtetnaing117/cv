@@ -21,6 +21,12 @@ class Landingpage extends Component {
                             <p>HTML/CSS | Bootstarp | JavaScript | React | React Native | Python | Odoo | Jquery | heroku | Git </p><br/>
                             {/* <p>To work as developer in a company with world leading technology that provide the opportunities for
                     continuous learning new things and to get a challenge role.</p>  */}
+                            
+                            <h1>CAREEROBJECTIVE</h1>
+                            <p>To work as Odoo developer in a company with world
+                                eading technology that <br/>lprovide the opportunities for
+                                continuous learning <br/>new things and to get a challenge
+                                role.</p>
 
                             <div className='social-links'>
                                 <a href='https://github.com/minhtetnaing117/cv' rel='noopener noreferrer' target='_blank'>

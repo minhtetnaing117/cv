@@ -5,7 +5,7 @@ import Experience from './experience'
 import PersonalDetail from './personalDetail'
 import PersonalCertification from './PesonalCertification'
 import Skill from './skills'
-import imgs from '../images.jpg'
+import imgs from '../assets/images.jpg'
 
 class Resume extends Component {
     render () {
