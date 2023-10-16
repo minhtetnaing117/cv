@@ -68,17 +68,23 @@ class Resume extends Component {
                         <h2>Experience</h2>
                         <Experience 
                         startYear={2012}
-                        endYear={2014}
+                        endYear={2014 + ' July'}
                         jobName="Mining"
                         Company="National Property Company"
                         position="Supervisor"
                         />
 
-                       
+                       <Experience 
+                        startYear={2017}
+                        endYear={2019}
+                        jobName="Sale"
+                        Company="Vape Paradise"
+                        position='Sale'
+                        />
 
                         <Experience 
-                        startYear={2020}
-                        endYear={'until now'}
+                        startYear={2021 + ' March'}
+                        endYear={2019+' October'}
                         jobName="Odoo Develpoer"
                         Company="KanaungMyanmarSoftware"
                         position='Odoo Developer'
@@ -92,7 +98,11 @@ class Resume extends Component {
                                                 CPM="Certified Professional Manager (CPM)"
                                                 KMD="I-Office Basic(KMD)"
                                                 NetworkBasic="Certified Network Engineering (Basic)"
-                                                WebEssentialCourse="Web Essential Course"/>
+                                                WebEssentialCourse="Web Essential Course"
+                                                PWDC="Professional Web Developer Course"
+                                                RDC="React Developer Course"
+                                                PDC="Python Developer Course"
+                                                WE="Web Engineer"/>
 
                         <hr style={{borderTop: '3px soild #e22947'}}/>
                         <h2>Skills</h2>

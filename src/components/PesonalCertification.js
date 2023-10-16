@@ -15,6 +15,10 @@ class PersonalCertification extends Component {
                           <p>{this.props.KMD}</p>
                           <p>{this.props.NetworkBasic}</p>
                           <p>{this.props.WebEssentialCourse}</p>
+                          <p>{this.props.PWDC}</p>
+                          <p>{this.props.RDC}</p>
+                          <p>{this.props.PDC}</p>
+                          <p>{this.props.WE}</p>
                          
                 </Cell>
                </Grid>
