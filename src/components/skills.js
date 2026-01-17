@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Cell, Grid, ProgressBar } from 'react-mdl'
+import { Component } from 'react'
+import { Cell, Grid } from 'react-mdl'
 
 class Skill extends Component{
     render(){

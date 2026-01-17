@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions,CardText, Button, CardMenu, IconButton} from 'react-mdl'
+import { Component } from 'react'
+import {Grid, Cell, Card, CardTitle, CardActions,CardText, Button, CardMenu, IconButton} from 'react-mdl'
 
 
 
