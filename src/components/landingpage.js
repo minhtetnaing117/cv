@@ -18,7 +18,7 @@ class Landingpage extends Component {
                             <h1>Odoo Developer</h1>
                             <hr />
 
-                            <p>HTML/CSS | Bootstarp | JavaScript | React | React Native | Python | Odoo | Jquery | heroku | Git </p><br/>
+                            <p>HTML/CSS | Bootstarp | JavaScript | React | Flutter | Python | Odoo | Jquery | heroku | Git </p><br/>
                             {/* <p>To work as developer in a company with world leading technology that provide the opportunities for
                     continuous learning new things and to get a challenge role.</p>  */}
                             
