@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Cell, Grid, List, ListItem, ListItemContent } from 'react-mdl'
-import { FaPhoneSquare,FaEnvelopeSquare, FaFax } from "react-icons/fa";
+import { FaPhoneSquare,FaEnvelopeSquare } from "react-icons/fa";
 
 class Contact extends Component {
     render () {
