@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Cell, Grid } from 'react-mdl'
 
 class PersonalCertification extends Component {
@@ -10,7 +10,14 @@ class PersonalCertification extends Component {
                        
                 </Cell>
                 <Cell col={8}>
-                <p style={{marginTop:'0px'}}>{this.props.WISE_College}</p>
+                    <p
+                        onClick={() => alert(this.props.WISE_College)}
+                        style={{ cursor: 'pointer' }}
+                        >
+                        {this.props.WISE_College}
+                        </p>
+
+                {/* <p style={{marginTop:'0px'}}>{this.props.WISE_College}</p> */}
                           <p>{this.props.CPM}</p>
                           <p>{this.props.KMD}</p>
                           <p>{this.props.NetworkBasic}</p>
